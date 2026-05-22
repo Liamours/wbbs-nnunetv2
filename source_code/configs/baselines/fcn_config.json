@@ -1,0 +1,17 @@
+{
+  "backbone": "ResNet-50",
+  "pretrained": "Cityscapes 512x1024",
+  "optimizer": "AdamW",
+  "lr": 0.001,
+  "batch_size": 3,
+  "epochs": 5000,
+  "loss": "CE",
+  "framework": "mmsegmentation v1.2.2",
+  "variant": "FCN-8s",
+  "input_resolution": "512x128",
+  "data_augmentation": false,
+  "random_seed": 777,
+  "gradient_clipping": {
+    "max_norm": 1
+  }
+}
