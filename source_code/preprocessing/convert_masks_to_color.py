@@ -18,18 +18,18 @@ import numpy as np
 # Label index -> RGB color (matches original annotation palette)
 PALETTE = {
     0:  [0,   0,   0  ],  # background
-    1:  [0,   151, 219],  # skull
-    2:  [12,  187, 62 ],  # cervical vertebrae
-    3:  [56,  65,  184],  # thoracic vertebrae
-    4:  [121, 0,   24 ],  # rib
-    5:  [126, 230, 225],  # sternum (anterior only)
-    6:  [166, 55,  167],  # collarbone
-    7:  [167, 110, 77 ],  # scapula
-    8:  [176, 230, 13 ],  # humerus
-    9:  [230, 114, 35 ],  # lumbar vertebrae
-    10: [230, 182, 22 ],  # sacrum
-    11: [230, 218, 0  ],  # pelvis
-    12: [230, 157, 180],  # femur
+    1:  [176, 230, 13 ],  # skull
+    2:  [0,   151, 219],  # cervical vertebrae
+    3:  [126, 230, 225],  # thoracic vertebrae
+    4:  [166, 55,  167],  # rib
+    5:  [230, 157, 180],  # sternum (anterior only)
+    6:  [167, 110, 77 ],  # collarbone
+    7:  [121, 0,   24 ],  # scapula
+    8:  [56,  65,  184],  # humerus
+    9:  [230, 218, 0  ],  # lumbar vertebrae
+    10: [230, 114, 35 ],  # sacrum
+    11: [12,  187, 62 ],  # pelvis
+    12: [230, 182, 22 ],  # femur
 }
 
 DATASET_DIR = Path(__file__).resolve().parent.parent.parent / "dataset" / "masks"

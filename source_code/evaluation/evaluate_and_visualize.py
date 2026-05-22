@@ -40,18 +40,18 @@ CLASSES = {
 
 COLORS = [
     [0,   0,   0  ],  # 0  background
-    [0,   151, 219],  # 1  skull
-    [12,  187, 62 ],  # 2  cervical vertebrae
-    [56,  65,  184],  # 3  thoracic vertebrae
-    [121, 0,   24 ],  # 4  rib
-    [126, 230, 225],  # 5  sternum (anterior only)
-    [166, 55,  167],  # 6  collarbone
-    [167, 110, 77 ],  # 7  scapula
-    [176, 230, 13 ],  # 8  humerus
-    [230, 114, 35 ],  # 9  lumbar vertebrae
-    [230, 182, 22 ],  # 10 sacrum
-    [230, 218, 0  ],  # 11 pelvis
-    [230, 157, 180],  # 12 femur
+    [176, 230, 13 ],  # 1  skull
+    [0,   151, 219],  # 2  cervical vertebrae
+    [126, 230, 225],  # 3  thoracic vertebrae
+    [166, 55,  167],  # 4  rib
+    [230, 157, 180],  # 5  sternum (anterior only)
+    [167, 110, 77 ],  # 6  collarbone
+    [121, 0,   24 ],  # 7  scapula
+    [56,  65,  184],  # 8  humerus
+    [230, 218, 0  ],  # 9  lumbar vertebrae
+    [230, 114, 35 ],  # 10 sacrum
+    [12,  187, 62 ],  # 11 pelvis
+    [230, 182, 22 ],  # 12 femur
 ]
 
 
