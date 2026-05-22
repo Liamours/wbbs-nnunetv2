@@ -4,6 +4,10 @@ Code and data for the paper:
 **"Deep Learning-Based Segmentation of Whole-Body Bone Scan Images Using nnU-Netv2"**  
 *International Journal of Intelligent Engineering and Systems (IJIES-INASS)*
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20342310.svg)](https://doi.org/10.5281/zenodo.20342310)
+
+> **Annotated masks** are released separately on Zenodo: [10.5281/zenodo.20342310](https://doi.org/10.5281/zenodo.20342310)
+
 ---
 
 ## Dataset
@@ -144,6 +148,15 @@ Funding:
 - Telkom University — research grant no. **063/LIT07/PPM-LIT/2025**
 
 Annotation supervised by nuclear medicine physicians, Department of Nuclear Medicine and Molecular Theranostics, Dr. Hasan Sadikin General Hospital, Faculty of Medicine, Universitas Padjadjaran, Indonesia.
+
+---
+
+## Annotated Masks
+
+Ground-truth masks are hosted on Zenodo (too large for GitHub):  
+**[https://doi.org/10.5281/zenodo.20342310](https://doi.org/10.5281/zenodo.20342310)**
+
+Download and place under `dataset/masks/` to match the repository structure.
 
 ---
 
