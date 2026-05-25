@@ -120,10 +120,10 @@ Parameter details are in `source_code/configs/baselines/`.
 
 **nnU-Netv2 5-fold cross-validation (development set):**
 
-| View | Macro-avg DSC | 95% CI |
-|---|---|---|
-| Anterior | 0.8167 ± 0.0022 | 0.8140–0.8194 |
-| Posterior | 0.8344 ± 0.0013 | 0.8328–0.8360 |
+| View | Macro-avg DSC |
+|---|---|
+| Anterior | 0.8167 ± 0.0022 |
+| Posterior | 0.8344 ± 0.0013 |
 
 **Hold-out test set comparison (Fold-0 model vs baselines):**
 
