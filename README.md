@@ -10,6 +10,12 @@ Code and data for the paper:
 
 ---
 
+## Abstract
+
+Bone scintigraphy (BS) is widely used to detect skeletal metastases, but automated anatomical segmentation remains challenging because of image variability, noise, artifacts, and heterogeneous lesions. Existing methods, including FCN, DeepLabv3+, DANet, and SegFormer, have limitations in global context modeling, in handling irregular bone structures and morphological variability, or in posterior-view segmentation. We propose an nnU-Netv2-based approach that self-configures the network topology, preprocessing, and training hyperparameters without manual tuning. Using acquisition-level splitting, 3,593 whole-body BS images from the BS-80K dataset were divided into a 95% development set and a 5% independent hold-out test set. On the development set, nnU-Netv2 achieved 5-fold macro-averaged Dice coefficients of 0.8168 ± 0.0029 for anterior views and 0.8345 ± 0.0018 for posterior views. On the same hold-out test set, nnU-Netv2 achieved the highest mean DSC in the posterior view, whereas SegFormer achieved the highest mean DSC in the anterior view. These results support automated segmentation for Bone Scan Index computation and bone scan analysis.
+
+---
+
 ## Dataset
 
 Images are from [BS-80K](https://doi.org/10.1016/j.compbiomed.2022.106221) (Huang et al., 2022).  
@@ -122,8 +128,8 @@ Parameter details are in `source_code/configs/baselines/`.
 
 | View | Macro-avg DSC |
 |---|---|
-| Anterior | 0.8167 ± 0.0022 |
-| Posterior | 0.8344 ± 0.0013 |
+| Anterior | 0.8168 ± 0.0029 |
+| Posterior | 0.8345 ± 0.0018 |
 
 **Hold-out test set comparison (Fold-0 model vs baselines):**
 
